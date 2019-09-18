@@ -38,9 +38,6 @@ import seaborn as sns
 print('seaboard {} as sns'.format(sns.__version__))
 
 
-
-
-
 import sklearn.preprocessing
 import sklearn.model_selection
 import sklearn.metrics
