@@ -24,11 +24,22 @@ import inspect
 # ML imports
 # =============================================================================
 import numpy as np
-print('numpy', np.__version__)
+print('numpy {} as np'.format(np.__version__))
 import pandas as pd
-print('pandas', pd.__version__)
+print('pandas {} as pd'.format(pd.__version__))
 import sklearn as sk
-print('sklearn', sk.__version__)
+print('sklearn {} as sk'.format(sk.__version__))
+
+import matplotlib as mpl
+print('matplotlib {} as mpl'.format(mpl.__version__))
+import matplotlib.pyplot as plt
+print('matplotlib.pyplot as plt'.format())
+import seaborn as sns
+print('seaboard {} as sns'.format(sns.__version__))
+
+
+
+
 
 import sklearn.preprocessing
 import sklearn.model_selection
