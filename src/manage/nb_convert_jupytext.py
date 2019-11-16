@@ -70,7 +70,7 @@ for k in kernel_files:
         with f.open() as fh:
             lines = fh.readlines()
         # Concatenate
-        script_lines = script_lines + lines
+        script_lines = script_lines + ['\n'] + lines
         logging.info("Added {:5} lines from {}".format(len(lines),f.stem))
 #%%
 with path_kernel_script_out.open('w') as fh:
